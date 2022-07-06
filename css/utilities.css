@@ -1,0 +1,22 @@
+.btn {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: auto;
+  display: block;
+  width: 100px;
+  padding: 0.3rem;
+  background: #fbff00c9;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.btn:hover {
+  background-color: rgba(219, 219, 11, 0.753);
+  color: black;
+}
+
+.border__bottom_line {
+  border-bottom: 3px solid red;
+  width: 15rem;
+}

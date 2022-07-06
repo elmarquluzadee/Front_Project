@@ -1,0 +1,21 @@
+#section_a_c .main-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #aaaaaa;
+  justify-content: center;
+}
+#section_a_c .main-catalog div {
+  background-color: #fff;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  height: 250px;
+  font-size: 30px;
+}
+#section_a_c .main-catalog div img {
+  width: 100%;
+  height: 100%;
+}
+#section_a_c .main-catalog .catalog_1:hover {
+  background-color: brown;
+}

@@ -1,0 +1,38 @@
+#footer_section {
+  padding: 1rem;
+  border-top: 2px solid #a5a0a0;
+}
+#footer_section .social {
+  text-align: center;
+  margin: 1rem 0;
+}
+#footer_section .social i {
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  color: black;
+}
+#footer_section .social i:hover {
+  color: red;
+}
+#footer_section .list-inline {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#footer_section .list-inline .list-inline-item {
+  list-style: none;
+}
+#footer_section .list-inline li {
+  padding: 0 5px;
+}
+#footer_section .list-inline li a {
+  text-decoration: none;
+}
+#footer_section .list-inline li a:hover {
+  color: red;
+}
+#footer_section .company-name p {
+  text-align: center;
+}

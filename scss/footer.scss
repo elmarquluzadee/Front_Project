@@ -1,0 +1,57 @@
+// footer
+#footer_section {
+    padding: 1rem;
+
+    border-top: 2px solid rgb(165, 160, 160);
+
+    .social {
+        text-align: center;
+        margin: 1rem 0;
+
+        i {
+            font-size: 1.8rem;
+            letter-spacing: 1rem;
+            color: black;
+        }
+
+        i:hover {
+            color: red;
+        }
+
+
+    }
+
+    .list-inline {
+
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        .list-inline-item {
+            list-style: none;
+
+        }
+
+        li {
+            padding: 0 5px;
+
+            a {
+                text-decoration: none;
+
+            }
+
+            a:hover {
+                color: red;
+            }
+        }
+    }
+
+    .company-name {
+        p {
+            text-align: center;
+        }
+
+    }
+}
